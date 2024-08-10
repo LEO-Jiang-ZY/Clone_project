@@ -8,7 +8,7 @@ api = os.getenv("MAKERSUITE_API_TOKEN")
 
 model = {"model": "models/chat-bison-001"}
 
-palm.configure(api_key=api)
+palm.configure(api_key=AIzaSyCI__rHRL-O4Frz6u21NO-mZzMUF8_G7aQ)
 
 @app.route("/",methods=["GET","POST"])
 def index():
